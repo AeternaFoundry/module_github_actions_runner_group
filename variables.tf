@@ -25,7 +25,7 @@ EOT
         contains(["all", "selected", "private"], v.visibility)
       )
     ])
-    error_message = "must be one of: all, selected, private"
+    error_message = "must be one of: \"all\", \"selected\", \"private\""
   }
 }
 
